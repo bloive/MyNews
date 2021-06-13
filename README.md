@@ -24,7 +24,7 @@ By clicking the category, user gets redirected to the new fragment, where he can
 On each article you can find a bookmark icon, which saves the chosen articles to the user's firebase database under the "bookmarks" list.
 By clicking the article itsef, user will be redirected to the detailed fragment, where you can read the whole content of the article.
 
-The following libraries were used in this app: ViewModel, LiveData, Navigation, Retrofit, Coroutines, Glide
+The following libraries were used in this app: ViewModel, LiveData, Navigation, Retrofit, Coroutines, Glide, ViewBinding, DataBinding
 
 Each recycler adapter is connected to its fragment through individual ViewModel and LiveData.
 Fragments are organized with the help of navigation.
